@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72662C1C2707FAF300039204 /* HornsApp_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662C1B2707FAF300039204 /* HornsApp_iOSApp.swift */; };
+		72662C1E2707FAF300039204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662C1D2707FAF300039204 /* ContentView.swift */; };
+		72662C202707FAF500039204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72662C1F2707FAF500039204 /* Assets.xcassets */; };
+		72662C232707FAF500039204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72662C222707FAF500039204 /* Preview Assets.xcassets */; };
+		72662C2E2707FAF500039204 /* HornsApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662C2D2707FAF500039204 /* HornsApp_iOSTests.swift */; };
+		72662C392707FAF500039204 /* HornsApp_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72662C382707FAF500039204 /* HornsApp_iOSUITests.swift */; };
+		82A05E0D0F5745BF9BFADC5B /* libPods-HornsApp-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EAC4DD7C8A7F8DBB5E9ACB /* libPods-HornsApp-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72662C2A2707FAF500039204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72662C102707FAF300039204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72662C172707FAF300039204;
+			remoteInfo = "HornsApp-iOS";
+		};
+		72662C352707FAF500039204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72662C102707FAF300039204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72662C172707FAF300039204;
+			remoteInfo = "HornsApp-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6786977EB9568B9A1A5A568D /* Pods-HornsApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HornsApp-iOS.release.xcconfig"; path = "Target Support Files/Pods-HornsApp-iOS/Pods-HornsApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		72662C182707FAF300039204 /* HornsApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HornsApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72662C1B2707FAF300039204 /* HornsApp_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornsApp_iOSApp.swift; sourceTree = "<group>"; };
+		72662C1D2707FAF300039204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72662C1F2707FAF500039204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72662C222707FAF500039204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72662C242707FAF500039204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72662C292707FAF500039204 /* HornsApp-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HornsApp-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72662C2D2707FAF500039204 /* HornsApp_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornsApp_iOSTests.swift; sourceTree = "<group>"; };
+		72662C2F2707FAF500039204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72662C342707FAF500039204 /* HornsApp-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HornsApp-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72662C382707FAF500039204 /* HornsApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HornsApp_iOSUITests.swift; sourceTree = "<group>"; };
+		72662C3A2707FAF500039204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EAC4DD7C8A7F8DBB5E9ACB /* libPods-HornsApp-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HornsApp-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01F249CA97764A010438F22 /* Pods-HornsApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HornsApp-iOS.debug.xcconfig"; path = "Target Support Files/Pods-HornsApp-iOS/Pods-HornsApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72662C152707FAF300039204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A05E0D0F5745BF9BFADC5B /* libPods-HornsApp-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72662C262707FAF500039204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72662C312707FAF500039204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B996BF0AE2EA481CCDF2592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C01F249CA97764A010438F22 /* Pods-HornsApp-iOS.debug.xcconfig */,
+				6786977EB9568B9A1A5A568D /* Pods-HornsApp-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72662C0F2707FAF300039204 = {
+			isa = PBXGroup;
+			children = (
+				72662C1A2707FAF300039204 /* HornsApp-iOS */,
+				72662C2C2707FAF500039204 /* HornsApp-iOSTests */,
+				72662C372707FAF500039204 /* HornsApp-iOSUITests */,
+				72662C192707FAF300039204 /* Products */,
+				1B996BF0AE2EA481CCDF2592 /* Pods */,
+				91CDA3AB5B7C22A163546C9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72662C192707FAF300039204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72662C182707FAF300039204 /* HornsApp-iOS.app */,
+				72662C292707FAF500039204 /* HornsApp-iOSTests.xctest */,
+				72662C342707FAF500039204 /* HornsApp-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72662C1A2707FAF300039204 /* HornsApp-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				72662C1B2707FAF300039204 /* HornsApp_iOSApp.swift */,
+				72662C1D2707FAF300039204 /* ContentView.swift */,
+				72662C1F2707FAF500039204 /* Assets.xcassets */,
+				72662C242707FAF500039204 /* Info.plist */,
+				72662C212707FAF500039204 /* Preview Content */,
+			);
+			path = "HornsApp-iOS";
+			sourceTree = "<group>";
+		};
+		72662C212707FAF500039204 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72662C222707FAF500039204 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72662C2C2707FAF500039204 /* HornsApp-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				72662C2D2707FAF500039204 /* HornsApp_iOSTests.swift */,
+				72662C2F2707FAF500039204 /* Info.plist */,
+			);
+			path = "HornsApp-iOSTests";
+			sourceTree = "<group>";
+		};
+		72662C372707FAF500039204 /* HornsApp-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72662C382707FAF500039204 /* HornsApp_iOSUITests.swift */,
+				72662C3A2707FAF500039204 /* Info.plist */,
+			);
+			path = "HornsApp-iOSUITests";
+			sourceTree = "<group>";
+		};
+		91CDA3AB5B7C22A163546C9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6EAC4DD7C8A7F8DBB5E9ACB /* libPods-HornsApp-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72662C172707FAF300039204 /* HornsApp-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72662C3D2707FAF500039204 /* Build configuration list for PBXNativeTarget "HornsApp-iOS" */;
+			buildPhases = (
+				C9C6E7E7B1F068E03FDCB6B0 /* [CP] Check Pods Manifest.lock */,
+				72662C142707FAF300039204 /* Sources */,
+				72662C152707FAF300039204 /* Frameworks */,
+				72662C162707FAF300039204 /* Resources */,
+				994A3586A2DA94A4901959B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HornsApp-iOS";
+			productName = "HornsApp-iOS";
+			productReference = 72662C182707FAF300039204 /* HornsApp-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72662C282707FAF500039204 /* HornsApp-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72662C402707FAF500039204 /* Build configuration list for PBXNativeTarget "HornsApp-iOSTests" */;
+			buildPhases = (
+				72662C252707FAF500039204 /* Sources */,
+				72662C262707FAF500039204 /* Frameworks */,
+				72662C272707FAF500039204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72662C2B2707FAF500039204 /* PBXTargetDependency */,
+			);
+			name = "HornsApp-iOSTests";
+			productName = "HornsApp-iOSTests";
+			productReference = 72662C292707FAF500039204 /* HornsApp-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72662C332707FAF500039204 /* HornsApp-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72662C432707FAF500039204 /* Build configuration list for PBXNativeTarget "HornsApp-iOSUITests" */;
+			buildPhases = (
+				72662C302707FAF500039204 /* Sources */,
+				72662C312707FAF500039204 /* Frameworks */,
+				72662C322707FAF500039204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72662C362707FAF500039204 /* PBXTargetDependency */,
+			);
+			name = "HornsApp-iOSUITests";
+			productName = "HornsApp-iOSUITests";
+			productReference = 72662C342707FAF500039204 /* HornsApp-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72662C102707FAF300039204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					72662C172707FAF300039204 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					72662C282707FAF500039204 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 72662C172707FAF300039204;
+					};
+					72662C332707FAF500039204 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 72662C172707FAF300039204;
+					};
+				};
+			};
+			buildConfigurationList = 72662C132707FAF300039204 /* Build configuration list for PBXProject "HornsApp-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72662C0F2707FAF300039204;
+			productRefGroup = 72662C192707FAF300039204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72662C172707FAF300039204 /* HornsApp-iOS */,
+				72662C282707FAF500039204 /* HornsApp-iOSTests */,
+				72662C332707FAF500039204 /* HornsApp-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72662C162707FAF300039204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72662C232707FAF500039204 /* Preview Assets.xcassets in Resources */,
+				72662C202707FAF500039204 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72662C272707FAF500039204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72662C322707FAF500039204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		994A3586A2DA94A4901959B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HornsApp-iOS/Pods-HornsApp-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HornsApp-iOS/Pods-HornsApp-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HornsApp-iOS/Pods-HornsApp-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C6E7E7B1F068E03FDCB6B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HornsApp-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72662C142707FAF300039204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72662C1E2707FAF300039204 /* ContentView.swift in Sources */,
+				72662C1C2707FAF300039204 /* HornsApp_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72662C252707FAF500039204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72662C2E2707FAF500039204 /* HornsApp_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72662C302707FAF500039204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72662C392707FAF500039204 /* HornsApp_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72662C2B2707FAF500039204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72662C172707FAF300039204 /* HornsApp-iOS */;
+			targetProxy = 72662C2A2707FAF500039204 /* PBXContainerItemProxy */;
+		};
+		72662C362707FAF500039204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72662C172707FAF300039204 /* HornsApp-iOS */;
+			targetProxy = 72662C352707FAF500039204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72662C3B2707FAF500039204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72662C3C2707FAF500039204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72662C3E2707FAF500039204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01F249CA97764A010438F22 /* Pods-HornsApp-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HornsApp-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9J76T3335Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HornsApp-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yesferal.HornsApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72662C3F2707FAF500039204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6786977EB9568B9A1A5A568D /* Pods-HornsApp-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HornsApp-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9J76T3335Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HornsApp-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yesferal.HornsApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72662C412707FAF500039204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J76T3335Y;
+				INFOPLIST_FILE = "HornsApp-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yesferal.HornsApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HornsApp-iOS.app/HornsApp-iOS";
+			};
+			name = Debug;
+		};
+		72662C422707FAF500039204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J76T3335Y;
+				INFOPLIST_FILE = "HornsApp-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yesferal.HornsApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HornsApp-iOS.app/HornsApp-iOS";
+			};
+			name = Release;
+		};
+		72662C442707FAF500039204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J76T3335Y;
+				INFOPLIST_FILE = "HornsApp-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yesferal.HornsApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HornsApp-iOS";
+			};
+			name = Debug;
+		};
+		72662C452707FAF500039204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J76T3335Y;
+				INFOPLIST_FILE = "HornsApp-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yesferal.HornsApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HornsApp-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72662C132707FAF300039204 /* Build configuration list for PBXProject "HornsApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72662C3B2707FAF500039204 /* Debug */,
+				72662C3C2707FAF500039204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72662C3D2707FAF500039204 /* Build configuration list for PBXNativeTarget "HornsApp-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72662C3E2707FAF500039204 /* Debug */,
+				72662C3F2707FAF500039204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72662C402707FAF500039204 /* Build configuration list for PBXNativeTarget "HornsApp-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72662C412707FAF500039204 /* Debug */,
+				72662C422707FAF500039204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72662C432707FAF500039204 /* Build configuration list for PBXNativeTarget "HornsApp-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72662C442707FAF500039204 /* Debug */,
+				72662C452707FAF500039204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72662C102707FAF300039204 /* Project object */;
+}

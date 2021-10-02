@@ -1,0 +1,35 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HornsApp_Kotlin (0.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - HornsApp_Kotlin (~> 0.1.1)
+
+SPEC REPOS:
+  https://github.com/Yesferal/HornsApp-PodSpecs.git:
+    - HornsApp_Kotlin
+  trunk:
+    - AFNetworking
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HornsApp_Kotlin: b1095786410947893ffd161b1fe6f1797c93e5ed
+
+PODFILE CHECKSUM: 9748c61a800515e1b9cadf32be100b8b9f508386
+
+COCOAPODS: 1.11.2
