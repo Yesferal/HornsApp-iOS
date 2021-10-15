@@ -6,13 +6,18 @@
 //
 
 import SwiftUI
-import HornsApp_Kotlin
+import HornsAppCore
 
 struct ContentView: View {
+    var text = TextDrawer(en: "English!", es: "Español!").text ?? "Fake text"
+    var language: String = UserDefaults.standard.stringArray(forKey: "AppleLanguages")?.first ?? "Fake language"
     var body: some View {
-        Text("Hello, world! " + Greeting().greeting())
+        Text("Version: " + HornsAppCoreVersion().version)
+            .padding()
+        Text("Language: " + language + " - Text: " + text)
             .padding()
     }
+    var error = Venue(id: "", name: "", latitude: "", longitude: "")
 }
 
 struct ContentView_Previews: PreviewProvider {
