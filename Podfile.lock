@@ -1,35 +1,21 @@
 PODS:
-  - AFNetworking (4.0.1):
-    - AFNetworking/NSURLSession (= 4.0.1)
-    - AFNetworking/Reachability (= 4.0.1)
-    - AFNetworking/Security (= 4.0.1)
-    - AFNetworking/Serialization (= 4.0.1)
-    - AFNetworking/UIKit (= 4.0.1)
-  - AFNetworking/NSURLSession (4.0.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AFNetworking/UIKit (4.0.1):
-    - AFNetworking/NSURLSession
+  - Alamofire (5.0.5)
   - HornsAppCore (0.3.8)
 
 DEPENDENCIES:
-  - AFNetworking (~> 4.0)
+  - Alamofire (~> 5.0.5)
   - HornsAppCore (~> 0.3.8)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
   https://github.com/Yesferal/HornsApp-PodSpecs.git:
     - HornsAppCore
-  trunk:
-    - AFNetworking
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
   HornsAppCore: 26787271a170127f6379c7815e9bacc60f162bd5
 
-PODFILE CHECKSUM: 38f5a14b808936515ad678cb5b7816aa0c4d033e
+PODFILE CHECKSUM: 128dd9e349de0cf7712f9551973a6c9d814a6a42
 
 COCOAPODS: 1.11.2
