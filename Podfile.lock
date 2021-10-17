@@ -1,21 +1,25 @@
 PODS:
   - Alamofire (5.0.5)
   - HornsAppCore (0.3.8)
+  - Kingfisher (7.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.5)
   - HornsAppCore (~> 0.3.8)
+  - Kingfisher (~> 7.1.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - Kingfisher
   https://github.com/Yesferal/HornsApp-PodSpecs.git:
     - HornsAppCore
 
 SPEC CHECKSUMS:
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
   HornsAppCore: 26787271a170127f6379c7815e9bacc60f162bd5
+  Kingfisher: f738f9c4a3415823b8e2985d10aa2d6a9f37bc4d
 
-PODFILE CHECKSUM: 128dd9e349de0cf7712f9551973a6c9d814a6a42
+PODFILE CHECKSUM: add528b3255ff52521d26a09b3d4be41c272b3a7
 
 COCOAPODS: 1.11.2
